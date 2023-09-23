@@ -74,3 +74,8 @@ INSERT INTO BRH.ATRIBUICAO
 VALUES
 ('A124', 9, 8);
 
+//Consulta listando sigla e nome do departamento ordenada pela ordem alfabética dos depsrtamentos
+
+SELECT NOME, SIGLA FROM BRH.DEPARTAMENTO WHERE NOME >'A';
+
+
